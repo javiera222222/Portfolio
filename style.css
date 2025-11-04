@@ -1,0 +1,159 @@
+/* 🎯 Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #147ded;
+    color: #000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* 📍 Secciones principales */
+.uno,
+.dos,
+.tres {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.uno {
+    margin-top: 0px;
+}
+
+
+.tres {
+    text-align: center;
+}
+
+
+
+/* 🧑‍💻 Sección de presentación */
+.uno h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.ingles {
+    background-color: #90c1f7;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.uno img.foto {
+    display: block;
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid #007bff;
+}
+
+.uno p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.p2 {
+    background-color: #147ded;
+    border-radius: 20%;
+}
+
+/* ⚙️ Sección de skills */
+.dos {
+    background-color: #f7f9fc;
+}
+
+.dos h2 {
+    text-align: center;
+
+}
+
+.dos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px;
+}
+
+.dos li {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 8px;
+    font-weight: bold;
+    width: 100px;
+    /* 👈 ajustá este valor */
+    text-align: center;
+}
+
+
+.dos li:hover {
+    background-color: #0056b3;
+}
+
+.dos p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 🌐 Sección de enlaces */
+.tres h2 {
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.tres a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.tres a img {
+    width: 40px;
+    height: 40px;
+}
+
+.tres a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+    .uno h1 {
+        font-size: 1.5rem;
+    }
+
+    .dos ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tres a {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+}
