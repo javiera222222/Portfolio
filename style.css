@@ -1,0 +1,36 @@
+.nombre {
+    background: url("icon/fondo.jpg") no-repeat center center fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.uno {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.dos {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
