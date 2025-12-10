@@ -9,32 +9,43 @@
 </head>
 
 <body>
+
+    <div id="inicio"></div>
+
     <div class="nombre">
         <div class="uno">
-            <h1>Javiera Guzmán</h1>
-            <h2>Desarrolladora web full stack</h2>
+            <h1 class="hunouno">Javiera Guzmán</h1>
+            <h2 class="hdosuno">Desarrolladora web full stack</h2>
         </div>
         <div class="dos">
-            <ul>
-                <li>Sobre mi</li>
-                <li>Tecnologías y Skills</li>
-                <li>Proyectos</li>
+            <ul class="listauno">
+
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#skills">Tecnologías y Skills</a></li>
+                <li><a href="#contacto">Links y contacto</a></li>
             </ul>
         </div>
     </div>
-    <div class="sobremi">
+    <div class="divisor"></div>
+
+    <section id="sobremi">
+        <div class="fondo-difuso"></div>
         <h2>Sobre mi</h2>
         <p>Estudié Tecnicatura en Desarrollo Web (2023–2025) y antes hice una Diplomatura en JavaScript (2022) en la
-            Universidad Nacional del Comahue.
+            Universidad Nacional del Comahue. <br><br>
 
             Me gusta crear aplicaciones completas, desde el backend y las APIs hasta las interfaces del frontend.
             Disfruto aprender cosas nuevas, resolver problemas y trabajar en proyectos que me desafíen.
+            <br><br>
+            Hace poco terminé mis estudios y estoy buscando mi primer trabajo en tecnología, con muchas ganas de
+            crecer,
+            mejorar y aportar a un buen equipo.
+        </p>
+    </section>
+    <div class="divisor"></div>
 
-            Hace poco terminé mis estudios y estoy buscando mi primer trabajo en tecnología, con muchas ganas de crecer,
-            mejorar y aportar a un buen equipo.</p>
-
-    </div>
-    <div class="skills">
+    <div id="skills">
+        <div class="fondo-difuso"></div>
         <h3>frontend</h3>
         <ul>
             <li>Vue.js</li>
@@ -45,9 +56,10 @@
             <li>JavaScript</li>
             <li>Axios / Fetch</li>
         </ul>
+
         <h3>backend</h3>
         <ul>
-            <li> Python </li>
+            <li>Python</li>
             <li>Django 5 / DRF</li>
             <li>PHP 8+</li>
             <li>API REST</li>
@@ -55,8 +67,10 @@
             <li>MVC</li>
             <li>JWT</li>
             <li>DAO</li>
-            <li>SQLite / PostgreSQL / MySQL</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
         </ul>
+
         <h3>herramientas</h3>
         <ul>
             <li>Docker</li>
@@ -68,41 +82,25 @@
 
         <h3>otros</h3>
         <ul>
-            <li> UML</li>
+            <li>UML</li>
             <li>Metodologías ágiles (Scrum)</li>
             <li>Diseño responsivo</li>
             <li>Arquitectura Cliente/Servidor</li>
         </ul>
     </div>
-    <div>
-        <h2>proyectos</h2>
+    <div class="divisor"></div>
 
-        <div class="card">
-            <img />
+    <div id="contacto" class="contacto">
+        <div class="fondo-difuso"></div>
+        <a href="https://github.com/javiera222222" target="_blank"><img src="icon/github.png"
+                alt="git"><span>GitHub</span></a>
+        <a href="https://mail.google.com/mail/?view=cm&to=javiera.jpge@gmail.com" target="_blank"><img
+                src="icon/mail.png" alt="mail"><span>Gmail</span></a>
+        <a href="https://www.linkedin.com/in/javiera-guzm%C3%A1n-98a5682b1/" target="_blank"><img
+                src="icon/linkedin.png" alt="linkedin"><span>Linkedin</span></a>
+    </div>
 
-            <div class="info">
-                <h3 class="nombre"></h3>
-                <p></p>
-
-
-            </div>
-            <div class="card">
-                <img />
-
-                <div class="info">
-                    <h3 class="nombre"></h3>
-                    <p></p>
-
-
-                </div>
-            </div>
-            <div class="contacto">
-                <a href="https://github.com/javiera222222"><img src="icon/github.png" alt="git">GitHub</a>
-                <a href="https://www.linkedin.com/in/javiera-guzm%C3%A1n-98a5682b1/"><img src="icon/linkedin.png"
-                        alt="linkedin">Linkedin</a>
-                <a href="https://mail.google.com/mail/?view=cm&amp;to=javiera.jpge@gmail.com"><img src="icon/mail.png"
-                        alt="mail">Gmail</a>
-            </div>
+    <a href="#inicio" class="btn-up">↑</a>
 
 </body>
 
